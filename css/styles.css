@@ -691,7 +691,10 @@ h1 {
 :focus {
   stroke: white;
   fill: white;
+  border: none;
 }
+
+.modal-close-btn-icon {transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 .review-form-description {
   color: var(--NAVY-BLUE, #2E2F42);
@@ -710,8 +713,8 @@ h1 {
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   background-color: transparent;
   padding-left: 38px;
-  transition: 250ms linear cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0px solid transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus {
@@ -727,9 +730,9 @@ h1 {
   color: var(--LIGHT-SLATE, #8E8F99);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
 }
 
 .review-form-input-icon {
@@ -757,13 +760,13 @@ h1 {
   background-color: transparent;
   padding: 8px 16px;
   resize: none;
-  transition: border-color 250ms linear cubic-bezier(0.4, 0, 0.2, 1);
   outline: 0px solid transparent;
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.40));
   font-size: 12px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-comment:focus {
@@ -802,8 +805,6 @@ h1 {
 .review-form-own-checkbox-icon {
   fill: #FFFFFF;
   opacity: 0;
-  width: 10;
-  height: 8;
 }
 
 .review-form-checkbox:checked+.review-form-checkbox-label>.review-form-own-checkbox-icon {
