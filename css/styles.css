@@ -791,9 +791,12 @@ h1 {
 }
 
 .review-form-checkbox:checked+.review-form-checkbox-label>.review-form-own-checkbox {
-  background-color: #e5804d;
   border-color: #4D5AE5;
-}
+  background-color: #404bbf;
+  fill: #F4F4FD;
+  border: none;
+  }
+
 
 
 .review-form-own-checkbox-icon {
@@ -805,9 +808,6 @@ h1 {
 
 .review-form-checkbox:checked+.review-form-checkbox-label>.review-form-own-checkbox-icon {
   opacity: 1;
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
 }
 
 .review-form-checkbox:focus+.review-form-checkbox-label>.review-form-own-checkbox {
@@ -826,4 +826,9 @@ h1 {
 
 .review-form-checkbox-wrapper {margin-bottom: 24px;}
 
+
+
 /* ============== MODAL WINDOW STYLES ============== */
+
+
+ 
