@@ -608,5 +608,8 @@ fill: white;}
 
   .review-form-checkbox:checked+.review-form-checkbox-label>.review-form-own-checkbox-icon {opacity: 1;}
 
+.review-form-checkbox:focus+.review-form-checkbox-label>.review-form-own-checkbox {outline: 2px solid rgba(0, 0, 255, 0.5);}
+
+
 /* ============== MODAL WINDOW STYLES ============== */
 
