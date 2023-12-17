@@ -577,6 +577,7 @@ h1 {
   margin-bottom: 16px;
 }
 
+.social-media-container {margin-right: 80px;}
 
 .the-end-two {
   display: flex;
@@ -619,6 +620,7 @@ h1 {
 .social-networks-icon {
   fill: #f4f4fd;
 }
+
 
 .paragh-three {margin-bottom: 16px;
 font-weight: 500;
