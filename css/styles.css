@@ -766,10 +766,7 @@ fill: white;}
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
   margin-bottom: 8px;
-  margin-bottom: 4px;
-
 }
 
 .review-form-field-label {
@@ -779,6 +776,7 @@ fill: white;}
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .review-form-input-icon {
@@ -871,7 +869,7 @@ fill: white;}
 
 .accent-color {color: #4d5ae5;}
 
-.review-form-checkbox-wrapper {margin-bottom: 24px;}
+.review-form-checkbox-wrapper {margin-bottom: 16px;}
 
 .review-form-submit-bth {display: block;
 min-width: 169px;
