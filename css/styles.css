@@ -768,7 +768,7 @@ fill: white;}
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .review-form-field-label {
@@ -871,7 +871,7 @@ fill: white;}
 
 .accent-color {color: #4d5ae5;}
 
-.review-form-checkbox-wrapper {margin-bottom: 16px;}
+.review-form-checkbox-wrapper {margin-bottom: 24px;}
 
 .review-form-submit-bth {display: block;
 min-width: 169px;
