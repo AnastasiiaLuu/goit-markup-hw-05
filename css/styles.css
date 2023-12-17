@@ -852,7 +852,6 @@ fill: white;}
 
 .review-form-own-checkbox-icon {
   fill: #FFFFFF;
-  opacity: 0;
 }
 
 .review-form-checkbox:checked+.review-form-checkbox-label>.review-form-own-checkbox-icon {
