@@ -776,9 +776,7 @@ fill: white;}
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 16px;
-  margin-bottom: 4px;
-  margin-bottom: 8px;
+  margin-bottom: 16px 4px 8px;
 }
 
 .review-form-input-icon {
