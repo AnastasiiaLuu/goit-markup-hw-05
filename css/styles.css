@@ -768,9 +768,10 @@ fill: white;}
 }
 
 .review-form-field-wrapper {
-  margin-bottom: 16px;
   margin-bottom: 8px;
 }
+
+.form-comment {margin-bottom: 16px;}
 
 .review-form-field-label {
   display: block;
